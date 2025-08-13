@@ -63,17 +63,17 @@ export default function AboutPage() {
 
               {[
                 {
-                  title: "Freelance Developer",
+                  title: "Freelance ",
                   company: "Dheera Circuits",
                   color: "bg-cyan-400"
                 },
                 {
-                  title: "Full-Stack Developer",
+                  title: "Full-Stack Web",
                   company: "Flix-tex E-Commerce Platform",
                   color: "bg-purple-400"
                 },
                 {
-                  title: "Flutter App Developer",
+                  title: "Flutter App ",
                   company: "Smart Parents App",
                   color: "bg-pink-400"
                 },
@@ -97,7 +97,7 @@ export default function AboutPage() {
               {"🔍 Problem Solver,🎨 Creative Thinker,🤝 Collaborative Leader,📚 Lifelong Learner".split(",").map((tag, i) => (
                 <span
                   key={i}
-                  className={`bg-gray-800 text-sm font-semibold shadow hover:scale-105 transition px-4 py-2 rounded-full text-${["cyan", "purple", "pink", "green"][i]}-400`}
+                  className={`bg-gray-800 text-sm font-semibold shadow hover:scale-105 transition px-4 py-2 rounded-full text-${["cyan", "purple", "yellow", "green"][i]}-400`}
                 >
                   {tag}
                 </span>

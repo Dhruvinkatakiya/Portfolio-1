@@ -15,8 +15,8 @@ const projects = [
     description:
       "A Flutter-based college management app with real-time student tracking and secure multi-role access for students, faculty, and parents.",
     tags: ["Flutter", "Dart", "Firebase", "Google Maps"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Dhruvinkatakiya/smart_parents.git",
+    demo: "https://github.com/Dhruvinkatakiya/smart_parents.git",
     image: smartParentsImg,
   },
   {
@@ -24,8 +24,8 @@ const projects = [
     description:
       "FlixTex is an innovative clothing site that offers a diverse range of clothing collections for men and women.",
     tags: ["React", "TailwindCSS", "Node.js", "MySQL"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Dhruvinkatakiya/FlixTex.git",
+    demo: "https://github.com/Dhruvinkatakiya/FlixTex.git",
     image: flixTexImg,
   },
   {
@@ -51,8 +51,8 @@ const projects = [
     description:
       "A static website to showcase home décor items using elegant design and layout built with HTML & CSS.",
     tags: ["HTML", "CSS", "Responsive Design"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/Dhruvinkatakiya/home_decore.git",
+    demo: "https://dhruvinkatakiya.github.io/home_decore/",
     image: homeDecorImg,
   },
 ];
