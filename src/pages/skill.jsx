@@ -55,13 +55,13 @@ const certifications = [
     color: "bg-gradient-to-r from-cyan-500 to-blue-400",
   },
   {
-    icon: (
-   <img
-  src="https://en.wikipedia.org/wiki/Flipkart#/media/File:Flipkart_Logo_as_of_2025.png"
-  alt="Flipkart Logo"
-  className="w-16 h-auto"
-/>
-),
+  icon: (
+    <img
+      src="https://en.wikipedia.org/wiki/Flipkart#/media/File:Flipkart_Logo_as_of_2025.png"
+      alt="Flip"
+      className="w-12 h-12 object-contain"
+    />
+  ),
     title: "Flipkart GRiD 6.0",
     org: "unstop",
     year: "202",

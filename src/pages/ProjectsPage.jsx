@@ -3,10 +3,10 @@ import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 
 // 🖼️ Import project images
 import smartParentsImg from "../assets/smart_parents.png";
-// import flixTexImg from "../assets/projects/flix_tex.png";
-// import dheeraCircuitsImg from "../assets/projects/dheera_circuits.png";
+import flixTexImg from "../assets/Flextix.png";
+import dheeraCircuitsImg from "../assets/Dheera.png";
 import coffeeBarImg from "../assets/coffee_bar.png";
-// import homeDecorImg from "../assets/projects/home_decor.png";
+import homeDecorImg from "../assets//Homedecore.png";
 
 // 📦 Project data
 const projects = [
@@ -26,16 +26,16 @@ const projects = [
     tags: ["React", "TailwindCSS", "Node.js", "MySQL"],
     github: "#",
     demo: "#",
-    image: "",
+    image: flixTexImg,
   },
   {
     title: "Dheera Circuits Website",
     description:
       "A professional website built as a freelance project. Integrated with Google Sheets API to capture form submissions in real time.",
     tags: ["React.js", "SCSS", "Google Sheets API", "AWS"],
-    github: "#",
-    demo: "#",
-    image: "",
+    // github: "#",
+    demo: "https://dheeracircuits.com/",
+    image: dheeraCircuitsImg,
   },
   {
     title: "Coffee Bar Management System",
@@ -53,7 +53,7 @@ const projects = [
     tags: ["HTML", "CSS", "Responsive Design"],
     github: "#",
     demo: "#",
-    image: "",
+    image: homeDecorImg,
   },
 ];
 
