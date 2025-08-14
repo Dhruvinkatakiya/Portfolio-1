@@ -2,8 +2,8 @@ import React from "react";
 
 const skills = {
   frontend: [
-    { name: "Html", value: 95 },
-    { name: "CSS", value: 90 },
+    { name: "Html5", value: 95 },
+    { name: "CSS3", value: 90 },
     { name: "Tailwind CSS", value: 88 },
     { name: "Raect.js", value: 92 },
     { name: "Next.js", value: 85 },
@@ -57,10 +57,11 @@ const certifications = [
   {
   icon: (
     <img loading="lazy"
-      src="https://en.wikipedia.org/wiki/Flipkart#/media/File:Flipkart_Logo_as_of_2025.png"
+      src="https://cdn.brandfetch.io/idWdImNSUt/w/800/h/787/theme/dark/symbol.webp?c=1dxbfHSJFAPEGdCLU4o5B"
       alt="Flip"
       className="w-12 h-12 object-contain"
     />
+    
   ),
     title: "Flipkart GRiD 6.0",
     org: "unstop",
