@@ -50,7 +50,7 @@ export default function Navbar() {
               className="flex items-center   justify-center w-10 h-10  text-white font-extrabold text-xl mr-4 sm:mr-10 shadow-lg transition-transform duration-200 hover:scale-110"
               aria-label="Go to Home"
             >
-              <img
+              <img loading="lazy"
               src={logo}
               alt="Profile"
               className=" object-cover   mx-auto  shadow-xl "

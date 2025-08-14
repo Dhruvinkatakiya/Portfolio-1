@@ -120,7 +120,7 @@ export default function HeroSection() {
 
         <motion.div variants={cardVariants} className="flex flex-col gap-6">
           <div className="bg-gradient-to-b from-gray-900/80 to-black/80 p-6 rounded-2xl border border-gray-800 text-center shadow-xl backdrop-blur-md hover:shadow-2xl transition">
-            <img
+            <img loading="lazy"
               src={profileImg}
               alt="Profile"
               className="w-52 h-52 object-cover rounded-full mx-auto mb-3 border-4 border-cyan-400 shadow-md hover:scale-105 transform transition"

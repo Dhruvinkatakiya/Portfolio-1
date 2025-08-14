@@ -29,7 +29,7 @@ const skills = {
 const certifications = [
   {
     icon: (
-      <img
+      <img loading="lazy"
         src="https://skillicons.dev/icons?i=aws"
         alt="Tech Stack Icons"
         className="w-full max-w-xl mx-auto"
@@ -43,7 +43,7 @@ const certifications = [
   },
   {
     icon: (
-      <img
+      <img loading="lazy"
         src="https://skillicons.dev/icons?i=react"
         alt="Tech Stack Icons"
         className="w-full max-w-xl mx-auto"
@@ -56,7 +56,7 @@ const certifications = [
   },
   {
   icon: (
-    <img
+    <img loading="lazy"
       src="https://en.wikipedia.org/wiki/Flipkart#/media/File:Flipkart_Logo_as_of_2025.png"
       alt="Flip"
       className="w-12 h-12 object-contain"

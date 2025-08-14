@@ -81,7 +81,7 @@ export default function ProjectsPage() {
               className="snap-start min-w-[90vw] max-w-[95vw] sm:min-w-[360px] sm:max-w-[380px] bg-gray-900/80 text-white rounded-xl shadow-xl overflow-hidden flex-shrink-0 border border-gray-800 backdrop-blur-xl hover:scale-105 transition-all duration-300"
             >
               <div className="p-6">
-                <img
+                <img loading="lazy"
                   src={project.image}
                   alt={`${project.title} screenshot`}
                   className="h-40 w-full object-cover rounded-xl mb-4 border border-gray-700"
