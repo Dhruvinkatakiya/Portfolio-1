@@ -6,6 +6,7 @@ import { ReactTyped } from "react-typed";
 import profileImg from "../assets/profile.jpeg";
 import { SiLeetcode } from "react-icons/si";
 import { FaBook, FaCode, FaPencilRuler, FaMedal } from "react-icons/fa";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -37,6 +38,11 @@ export default function HeroSection() {
       animate="visible"
       className="min-h-screen w-full bg-black text-white px-2 sm:px-6 py-32 sm:py-44 mt-[-80px] sm:mt-[-120px] flex justify-center items-start relative overflow-x-hidden overflow-y-visible"
     >
+
+       <Helmet>
+        <title>Home Page</title>
+        <meta name="description" content="Welcome to my portfolio website" />
+      </Helmet>
       {/* Animated floating particles */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         {[...Array(25)].map((_, i) => (
@@ -100,9 +106,13 @@ export default function HeroSection() {
               <FiSend /> Explore My Work
             </a>
 
-            <button className="px-6 py-2 rounded-full border border-gray-600 hover:bg-gray-800 hover:scale-105 hover:shadow-md transform transition duration-300 text-white font-medium flex items-center gap-2">
+            <a
+              href="/resume.pdf"
+              download
+              className="px-6 py-2 rounded-full border border-gray-600 hover:bg-gray-800 hover:scale-105 hover:shadow-md transform transition duration-300 text-white font-medium flex items-center gap-2"
+            >
               <FiDownload /> Download Resume
-            </button>
+            </a>
           </div>
 
           <div className="flex flex-wrap gap-3 mt-10">

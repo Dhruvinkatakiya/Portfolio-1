@@ -160,8 +160,8 @@ export default function SkillPage() {
               <div className="bg-gradient-to-r from-pink-400 to-purple-400 p-2.5 rounded-lg mr-3 flex items-center justify-center shadow">
                 {/* Backend Icon */}
                 <svg width="26" height="26" fill="none" viewBox="0 0 24 24">
-                  <rect x="4" y="4" width="16" height="16" rx="4" fill="#a78bfa" />
-                  <path stroke="#fff" strokeWidth="2" strokeLinecap="round" d="M8 12h8M12 8v8" />
+                  <rect x="4" y="4" width="16" height="16" rx="4" fill="#22d3ee" />
+                  <path stroke="#fff" strokeWidth="2" strokeLinecap="round" d="M9 9l-2 3 2 3M15 9l2 3-2 3" />
                 </svg>
               </div>
               <div>
@@ -195,9 +195,9 @@ export default function SkillPage() {
             <div className="flex items-center mb-3">
               <div className="bg-gradient-to-r from-cyan-400 to-pink-400 p-2.5 rounded-lg mr-3 flex items-center justify-center shadow">
                 {/* Tools Icon */}
-                <svg width="26" height="26" fill="none" viewBox="0 0 24 24">
-                  <rect x="4" y="4" width="16" height="16" rx="4" fill="#38bdf8" />
-                  <path stroke="#fff" strokeWidth="2" strokeLinecap="round" d="M12 8v8M8 12h8" />
+               <svg width="26" height="26" fill="none" viewBox="0 0 24 24">
+                  <rect x="4" y="4" width="16" height="16" rx="4" fill="#22d3ee" />
+                  <path stroke="#fff" strokeWidth="2" strokeLinecap="round" d="M9 9l-2 3 2 3M15 9l2 3-2 3" />
                 </svg>
               </div>
               <div>
