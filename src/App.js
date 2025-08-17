@@ -1,4 +1,6 @@
 import React from "react";
+import { useEffect } from "react";
+import { initGA } from "./ga";
 import CreateMagicPage from "./pages/createmagic";
 import Navbar from "./pages/Navbar";
 import AboutPage from "./pages/AboutPage";
@@ -9,7 +11,22 @@ import Footer from "./component/Footer";
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 
+
 function App() {
+
+   useEffect(() => {
+    // Add GA4 script dynamically
+    const script = document.createElement("script");
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-PBDP59088P";
+    script.async = true;
+    document.body.appendChild(script);
+
+    // Initialize GA
+    script.onload = () => {
+      initGA();
+    };
+  }, []);
+
   return (
     <HelmetProvider>
          
