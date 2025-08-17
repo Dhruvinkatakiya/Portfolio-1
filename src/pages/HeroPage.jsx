@@ -40,7 +40,6 @@ export default function HeroSection() {
     >
 
        <Helmet>
-        <title>Home Page</title>
         <meta name="description" content="Welcome to my portfolio website" />
       </Helmet>
       {/* Animated floating particles */}
@@ -138,12 +137,12 @@ export default function HeroSection() {
 
             <div className="flex justify-center gap-3">
               <a className="p-4 rounded-full bg-gray-800 hover:bg-cyan-600 transition" href="https://github.com/Dhruvinkatakiya"><FaGithub /></a>
-              <a className="p-4 rounded-full bg-gray-800 hover:bg-blue-700 transition" href="www.linkedin.com/in/dhruvin-katakiya"><FaLinkedin /></a>
+              <a className="p-4 rounded-full bg-gray-800 hover:bg-blue-700 transition" href="https://linkedin.com/in/dhruvin-katakiya"><FaLinkedin /></a>
 
-              <a className="p-4 rounded-full bg-gray-800 hover:bg-red-600 transition" href="#"><FaEnvelope /></a>
+              <a className="p-4 rounded-full bg-gray-800 hover:bg-red-600 transition" href="mailto:katakiyadhruvin1@gmail.com"><FaEnvelope /></a>
               <a
                 className="p-4 rounded-full bg-gray-800 hover:bg-yellow-500 transition"
-                href="https://leetcode.com/yourprofile"
+                href="https://leetcode.com/u/dhruvin_katakiya/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

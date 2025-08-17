@@ -89,12 +89,20 @@ export default function CreateMagicPage() {
 
         {/* Buttons */}
         <div className="flex gap-4 justify-center mb-8 animate-fade-in">
-          <button className="flex items-center gap-2 bg-gradient-to-r from-cyan-400 to-purple-500 text-white font-semibold px-8 py-3 rounded-full shadow hover:scale-110 transition text-base">
+          <a
+            href="mailto:katakiyadhruvin1@gmail.com"
+            className="flex items-center gap-2 bg-gradient-to-r from-cyan-400 to-purple-500 text-white font-semibold px-8 py-3 rounded-full shadow hover:scale-110 transition text-base"
+          >
             <FaEnvelope /> Start a Project
-          </button>
-          <button className="flex items-center gap-2 bg-black text-white font-semibold px-8 py-3 rounded-full border border-gray-700 shadow hover:scale-110 transition text-base">
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dhruvin-katakiya"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-black text-white font-semibold px-8 py-3 rounded-full border border-gray-700 shadow hover:scale-110 transition text-base"
+          >
             <FaLinkedin /> Connect on LinkedIn
-          </button>
+          </a>
         </div>
 
         {/* Stats */}

@@ -28,7 +28,7 @@ export default function Footer() {
         {/* Right - Social Icons */}
         <div className="flex gap-3">
           <a
-            href="https://github.com/"
+            href="https://github.com/Dhruvinkatakiya"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#1f1f1f] p-2 rounded-full hover:bg-gray-700 hover:shadow-md transition duration-200"
@@ -37,7 +37,7 @@ export default function Footer() {
             <FaGithub className="text-white w-4 h-4" />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://linkedin.com/in/dhruvin-katakiya"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#1f1f1f] p-2 rounded-full hover:bg-gray-700 hover:shadow-md transition duration-200"
@@ -46,7 +46,7 @@ export default function Footer() {
             <FaLinkedin className="text-white w-4 h-4" />
           </a>
           <a
-            href="mailto:someone@example.com"
+            href="mailto:katakiyadhruvin1@gmail.com"
             className="bg-[#1f1f1f] p-2 rounded-full hover:bg-gray-700 hover:shadow-md transition duration-200"
             aria-label="Email"
           >
