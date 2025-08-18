@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaAward, FaLeetcode } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { FiDownload, FiSend } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
@@ -39,8 +39,9 @@ export default function HeroSection() {
       className="min-h-screen w-full bg-black text-white px-2 sm:px-6 py-32 sm:py-44 mt-[-80px] sm:mt-[-120px] flex justify-center items-start relative overflow-x-hidden overflow-y-visible"
     >
 
-       <Helmet>
-        <meta name="description" content="Welcome to my portfolio website" />
+      <Helmet>
+        <meta name="description" content="Dhruvin Katakiya ,a full-stack web & app developer and UI/UX designer, building modern, responsive, and high-performance digital solutions. Explore my portfolio and projects.
+" />
       </Helmet>
       {/* Animated floating particles */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
@@ -79,10 +80,10 @@ export default function HeroSection() {
             <ReactTyped
               strings={[
                 "Full-Stack Developer",
-                "Problem Solver",
+                "Freelancer",
                 "Flutter Developer",
                 "UI/UX Enthusiast",
-                "Freelancer",
+                "Problem Solver",
 
               ]}
               typeSpeed={60}
@@ -92,9 +93,12 @@ export default function HeroSection() {
             />
 
           </h2>
+
+
+
           <p className="text-gray-400 mt-4 max-w-xl leading-relaxed">
-            I craft exceptional digital experiences through innovative design and cutting-edge technology.
-            Transforming ideas into reality with passion, precision, and a touch of magic ✨
+            I build responsive and high-performance digital experiences using ReactJS, Node.js, and modern UI/UX design principles.
+            Explore my portfolio to see projects in web and app development.✨
           </p>
 
           <div className="flex flex-wrap gap-4 mt-6">

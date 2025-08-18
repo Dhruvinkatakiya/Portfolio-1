@@ -44,7 +44,7 @@ export default function CreateMagicPage() {
             {[
               {
                 title: "Email Me",
-                subtitle: "dev.dhruvin.0.1@gmail.com",
+                subtitle: "katakiyadhruvin1@gmail.com",
                 note: "Drop me a line anytime",
                 color: "bg-red-500",
                 icon: (
