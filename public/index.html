@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
 
@@ -11,8 +11,8 @@
   <meta name="description"
     content="Dhruvin Katakiya - Full Stack Developer & UI/UX Designer. Explore my projects, skills, and portfolio showcasing expertise in modern web development." />
 
-  <link rel="apple-touch-icon" href="/public/logo192.png" />
-  <link rel="manifest" href="/public/manifest.json" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <!-- ✅ Single, optimized Title -->
   <title>Dhruvin Katakiya | Full Stack Developer & UI/UX Designer</title>
@@ -95,3 +95,13 @@
 </body>
 
 </html>
+<script>
+  // This script is used to handle the loading of the React application
+  window.addEventListener('load', function () {
+    const rootElement = document.getElementById('root');
+    if (rootElement) {
+      // Initialize your React app here
+      // For example: ReactDOM.render(<App />, rootElement);
+    }
+  });
+</script>
