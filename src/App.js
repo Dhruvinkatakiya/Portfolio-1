@@ -12,7 +12,7 @@ import { HelmetProvider, Helmet } from "react-helmet-async";
 
 function App() {
   useEffect(() => {
-    // Add GA4 script dynamically
+    
     const script = document.createElement("script");
     script.src = "https://www.googletagmanager.com/gtag/js?id=G-PBDP59088P";
     script.async = true;
@@ -26,69 +26,53 @@ function App() {
   return (
     <HelmetProvider>
       <Helmet>
-        {/* ✅ Basic Meta */}
-        <title>Dhruvin Katakiya | Full Stack Web & App Developer | ReactJS | UI/UX Designer | Portfolio</title>
-        <meta
-          name="description"
-          content="Dhruvin Katakiya - a full stack web & app developer and UI/UX designer specializing in ReactJS, Node.js, and modern design systems. Explore my portfolio, projects, and skills in web development."
-        />
-        <meta
-          name="keywords"
-          content="Dhruvin Katakiya, Web Developer, ReactJS, Full Stack Developer, JavaScript, Portfolio, UI UX Designer"
-        />
-        <meta name="author" content="Dhruvin Katakiya" />
+  <title>Dhruvin Katakiya | Web-App Developer, Full-Stack Engineer & UI/UX Designer</title>
+  <meta 
+    name="description" 
+    content="Dhruvin Katakiya is a Full-Stack Web-App Developer and UI/UX Designer building modern, scalable, and creative applications. Expert in ReactJS, NodeJS, JavaScript, and Web Design." 
+  />
+  <meta 
+    name="keywords" 
+    content="developer, web developer, software engineer, full stack developer, react developer, UI UX designer, Dhruvin Katakiya, JavaScript expert, front-end developer, back-end developer, portfolio" 
+  />
+  <meta name="author" content="Dhruvin Katakiya" />
 
-        {/* ✅ Open Graph */}
-        <meta
-          property="og:title"
-          content="Dhruvin Katakiya | Full Stack Web Developer"
-        />
-        <meta
-          property="og:description"
-          content="Portfolio of Dhruvin Katakiya, a full-stack developer crafting performant, accessible, and elegant web apps."
-        />
-        <meta
-          property="og:image"
-          content="https://dhruvinkatakiya.me/preview-image.png"
-        />
-        <meta property="og:url" content="https://dhruvinkatakiya.me" />
-        <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dhruvin Katakiya — Full-Stack Developer & Designer" />
+  <meta property="og:description" content="Professional portfolio of Dhruvin Katakiya. Explore projects, skills, and experience in Web Development, Full Stack Engineering, and UI/UX Design." />
+  <meta property="og:image" content="https://dhruvinkatakiya.me/preview.jpg" />
+  <meta property="og:url" content="https://dhruvinkatakiya.me" />
+  <meta property="og:type" content="website" />
 
-        {/* ✅ Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Dhruvin Katakiya | Full Stack Web Developer"
-        />
-        <meta
-          name="twitter:description"
-          content="Portfolio of Dhruvin Katakiya, a full-stack developer crafting performant, accessible, and elegant web apps."
-        />
-        <meta
-          name="twitter:image"
-          content="https://dhruvinkatakiya.me/preview-image.png"
-        />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dhruvin Katakiya — Full-Stack Developer & Designer" />
+  <meta name="twitter:description" content="Full-Stack Web Developer & UI/UX Designer building scalable web apps and modern designs." />
+  <meta name="twitter:image" content="https://dhruvinkatakiya.me/preview.jpg" />
 
-        {/* ✅ Canonical */}
-        <link rel="canonical" href="https://dhruvinkatakiya.me" />
+  {/* Schema Markup for  (Structured Data) */}
+  <script type="application/ld+json">
+    {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dhruvin Katakiya",
+      "url": "https://dhruvinkatakiya.me",
+      "jobTitle": "Full Stack Developer, UI/UX Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance / Open to Work"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/dhruvin-katakiya",
+        "https://github.com/Dhruvinkatakiya",
+      ]
+    }
+    `}
+  </script>
 
-        {/* ✅ Structured Data */}
-        <script type="application/ld+json">{`
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Dhruvin Katakiya",
-          "jobTitle": "Full Stack Developer",
-          "url": "https://dhruvinkatakiya.me",
-          "image": "https://dhruvinkatakiya.me/preview-image.png",
-          "sameAs": [
-            "https://www.linkedin.com/in/dhruvin-katakiya",
-            "https://github.com/dhruvin_katakiya"
-          ],
-          "knowsAbout": ["Web Development", "ReactJS", "Frontend Developer", "Backend Developer", "UI/UX Design"]
-        }
-        `}</script>
-      </Helmet>
+  {/* Canonical URL */}
+  <link rel="canonical" href="https://dhruvinkatakiya.me" />
+</Helmet>
+
 
       <div>
         <Navbar />
