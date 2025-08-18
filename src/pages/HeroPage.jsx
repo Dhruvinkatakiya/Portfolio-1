@@ -40,9 +40,18 @@ export default function HeroSection() {
     >
 
       <Helmet>
-        <meta name="description" content="Dhruvin Katakiya ,a full-stack web & app developer and UI/UX designer, building modern, responsive, and high-performance digital solutions. Explore my portfolio and projects.
-" />
+        <meta
+          name="description"
+          content="Dhruvin Katakiya — Full-Stack Web & App Developer, UI/UX Designer, and Freelancer. Building fast, modern, and scalable digital experiences with React, Node.js, Flutter, and Figma. Explore my projects, designs, certifications, and research work."
+        />
+        <meta
+          name="keywords"
+          content="Dhruvin Katakiya, Web Developer, App Developer, Full-Stack Developer, UI/UX Designer, ReactJS Developer, Flutter Developer, JavaScript, Node.js, Freelancer Portfolio"
+        />
+        <meta property="og:title" content="Dhruvin Katakiya — Full-Stack Web & App Developer | UI/UX Designer" />
+        <meta property="og:description" content="Portfolio of Dhruvin Katakiya, a skilled Full-Stack Developer and UI/UX Designer. Delivering high-performance apps and websites with React, Node.js, and Flutter." />
       </Helmet>
+
       {/* Animated floating particles */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         {[...Array(25)].map((_, i) => (
@@ -76,30 +85,31 @@ export default function HeroSection() {
               Dhruvin Katakiya
             </span>
           </h1>
+
           <h2 className="text-2xl mt-2 text-purple-400 font-semibold">
             <ReactTyped
               strings={[
-                "Full-Stack Developer",
-                "Freelancer",
-                "Flutter Developer",
+                "Full-Stack Web Developer",
+                "Flutter Developer  ",
                 "UI/UX Enthusiast",
+                "Freelancer ",
                 "Problem Solver",
-
               ]}
               typeSpeed={60}
               backSpeed={30}
               backDelay={1000}
               loop
             />
-
           </h2>
 
-
-
           <p className="text-gray-400 mt-4 max-w-xl leading-relaxed">
-            I build responsive and high-performance digital experiences using ReactJS, Node.js, and modern UI/UX design principles.
-            Explore my portfolio to see projects in web and app development.✨
+            I am a Full-Stack Developer and UI/UX Designer passionate about building
+            modern, scalable, and high-performance digital experiences. Skilled in
+            <strong> React.js, Node.js, Flutter, and Figma</strong>, I create web and mobile
+            applications that combine functionality with clean design. Explore my portfolio
+            to see projects, designs, certifications, and research work.
           </p>
+
 
           <div className="flex flex-wrap gap-4 mt-6">
             <a
@@ -119,14 +129,17 @@ export default function HeroSection() {
           </div>
 
           <div className="flex flex-wrap gap-3 mt-10">
-            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow   animate-bounce">
-              Flutter
+            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow animate-bounce">
+              Full-Stack Development
             </span>
-            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow  animate-bounce">
-              React.js
+            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow animate-bounce">
+              React.js & Node.js
             </span>
-            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow  animate-bounce">
-              Figma
+            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow animate-bounce">
+              Flutter Apps
+            </span>
+            <span className="bg-gray-800 px-4 py-1 rounded-full text-sm flex items-center gap-2 border border-gray-700 hover:scale-105 hover:shadow animate-bounce">
+              UI/UX Design (Figma)
             </span>
           </div>
         </motion.div>
