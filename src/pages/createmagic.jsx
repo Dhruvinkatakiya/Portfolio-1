@@ -81,28 +81,28 @@ export default function CreateMagicPage() {
                   </svg>
                 ),
               },
-              {
-                title: "Connect Me",
-                subtitle: "+91 9537998165",
-                note: "Call Now",
-                color: "bg-green-500",
-                icon: (
-                  <svg width="30" height="30" fill="none" viewBox="0 0 24 24">
-                    <path
-                      fill="currentColor"
-                      d="M6.62 10.79a15.053 15.053 0 0 0 6.59 
-                      6.59l2.2-2.2a1 1 0 0 1 
-                      1.01-.24 11.05 11.05 0 0 0 3.47.55 
-                      1 1 0 0 1 1 1v3.34a1 1 0 0 1-1 
-                      1C10.4 21 3 13.6 3 
-                      4.99a1 1 0 0 1 1-1H7.4a1 
-                      1 0 0 1 1 1c0 1.2.19 
-                      2.38.55 3.47a1 1 0 0 1-.25 
-                      1.01l-2.08 2.32z"
-                    />
-                  </svg>
-                ),
-              },
+              // {
+              //   title: "Connect Me",
+              //   subtitle: "+91 9537998165",
+              //   note: "Call Now",
+              //   color: "bg-green-500",
+              //   icon: (
+              //     <svg width="30" height="30" fill="none" viewBox="0 0 24 24">
+              //       <path
+              //         fill="currentColor"
+              //         d="M6.62 10.79a15.053 15.053 0 0 0 6.59 
+              //         6.59l2.2-2.2a1 1 0 0 1 
+              //         1.01-.24 11.05 11.05 0 0 0 3.47.55 
+              //         1 1 0 0 1 1 1v3.34a1 1 0 0 1-1 
+              //         1C10.4 21 3 13.6 3 
+              //         4.99a1 1 0 0 1 1-1H7.4a1 
+              //         1 0 0 1 1 1c0 1.2.19 
+              //         2.38.55 3.47a1 1 0 0 1-.25 
+              //         1.01l-2.08 2.32z"
+              //       />
+              //     </svg>
+              //   ),
+              // },
             ].map((item, i) => (
               <div
                 key={i}
